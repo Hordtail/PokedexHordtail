@@ -41,8 +41,8 @@ else if (pokeid.length === 3) {
                             ${tipos}
                         </div>
                         <div class="pokemon-stats">
-                            <p class="stat">${poke.height}M</p>
-                            <p class="stat">${poke.weight}KG</p>
+                            <p class="stat">${poke.height*10/100}M</p>
+                            <p class="stat">${poke.weight*100/1000}KG</p>
                         </div>
                     </div>
     `;
